@@ -11,6 +11,66 @@ body{
     width: 100vw;
    
 }
+/* header css starts from here */
+.nav{
+   
+background: #562EFF;
+    height: 94px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    margin-bottom: 19px;
+    margin-top: 0;
+  
+    
+
+}
+.nav .left .logo img{
+    width: 40.42px;
+    height: 51px;
+}
+.nav .left .left-writing{
+    margin-left: 16px;
+}
+.nav .left .left-writing h2{
+    font-size: 24px;
+    color: white;
+}
+.nav .left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 499px;
+    
+}
+.nav .right{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 404px;
+    
+   
+
+}
+ .right .list li {
+   
+    list-style: none;
+    margin: 36px;
+    
+
+}
+.right .list img{
+    width: 51px;
+height: 51px;
+
+}
+.right .list li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* main css starts from here */
 main{
     display: flex;
     flex-direction: column;
